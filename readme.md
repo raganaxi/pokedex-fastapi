@@ -22,7 +22,7 @@ Este es un proyecto de ejemplo para construir un chatbot estilo MCP (Model-Conte
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/pokedex-fastapi.git
+git clone git@github.com:raganaxi/pokedex-fastapi.git
 cd pokedex-fastapi
 ```
 
