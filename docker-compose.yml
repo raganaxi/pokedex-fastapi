@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    ports:
+      - "${APP_PORT:?err}:8000"
+    volumes:
+      - ./app:/app/app
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
